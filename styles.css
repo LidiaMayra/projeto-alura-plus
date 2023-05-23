@@ -155,3 +155,36 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media (max-width: 970px) {
+    .container {
+        background-image: none;
+        display: block; /*Coloca o conteúdo em blocos na vertical*/
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .pagina__secundaria {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+}
